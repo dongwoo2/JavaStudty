@@ -15,5 +15,9 @@ public class StudentTest {
 
         studentLee.showStudentScore();
         studentKim.showStudentScore();
+
+        System.out.println("studentLee = " + studentLee.getStudentId());
+//        studentKim.setStudentName("James");
+        studentKim.showStudentScore();
     }
 }

@@ -2,8 +2,8 @@ package ch08;
 
 public class Student {
 
-    int studentId;
-    String studentName;
+    private int studentId;
+    private String studentName;
 
    Subject korean;
    Subject math;
@@ -29,4 +29,20 @@ public class Student {
        int total = korean.score + math.score;
        System.out.println(studentName + "학생의 총점은 " + total + "점 입니다.");
    }
+
+    public int getStudentId() {
+        return studentId;
+    }
+
+//    public void setStudentId(int studentId) {
+//        this.studentId = studentId; //인스턴스 변수다
+//    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+//    public void setStudentName(String studentName) {
+//        this.studentName = studentName;
+//    }
 }
