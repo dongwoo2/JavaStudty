@@ -19,7 +19,7 @@ public class CustomerTest {
 
         VIPCustomer vcustomer = new VIPCustomer(0, "Lee");
 
-        
+
 
         System.out.println("customerKim.showCustomerInfo() = " + customerKim.showCustomerInfo());
 
