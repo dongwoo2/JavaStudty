@@ -28,7 +28,9 @@ public class CustomerTest {
 
 
         System.out.println(" =============할인율과 보너스 포인트계산=============== " );
+        int price = 10000;
         for(Customer customer : customerList) {
+
             int cost = customer.calcPrice(price);
             System.out.println("cost = " + customer.getCustomerName() + cost);
             System.out.println("cost = " + customer.getCustomerName() + customer.bonuspoint);
