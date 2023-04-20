@@ -1,4 +1,4 @@
-package ch11interface;
+package ch12intetface;
 
 public abstract class Calculator implements Calc{
     @Override
@@ -11,4 +11,8 @@ public abstract class Calculator implements Calc{
         return num1 - num2;
     }
 
+//    @Override
+//    public void description() {
+//        System.out.println(" 사칙연산을 수행하는 계산합니다.");
+//    }
 }

@@ -1,4 +1,4 @@
-package JavaStudy.src.ch11interface;
+package ch11interface;
 
 public class CalculatorTest {
 
