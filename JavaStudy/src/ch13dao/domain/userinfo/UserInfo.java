@@ -1,6 +1,6 @@
 package JavaStudy.src.ch13dao.domain.userinfo;
 
-public class UserInfo {
+public class UserInfo { //유저정보
 
     private String userId;
     private String passwd;
