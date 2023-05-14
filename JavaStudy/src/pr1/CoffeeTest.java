@@ -1,6 +1,6 @@
 package pr1;
 
-public class CoffeeTest {
+public class  CoffeeTest {
 
     public static void main(String[] args) {
 
