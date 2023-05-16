@@ -22,13 +22,19 @@ public class UserInfoClient {
         String dbType = prop.getProperty("DBTYPE");
         System.out.println("dbType = " + dbType);
 
-        UserInfo userInfo = new UserInfo();
+//        UserInfo userInfo = new UserInfo();
+        UserInfo userInfo2 = new UserInfo();
 
-        userInfo.setUserId("user01");
-        userInfo.setPasswd("!@DSA");
-        userInfo.setUserName("Dong");
+//        userInfo.setUserId("user01");
+//        userInfo.setPasswd("!@DSA");
+//        userInfo.setUserName("Dong");
+
+        userInfo2.setUserName("user02");
+        userInfo2.setPasswd("rla5064");
+        userInfo2.setUserId("Dongwoo1");
 
         UserInfoDao userInfoDao = null;
+
 
         if(dbType.equals("ORACLE")){
             userInfoDao = new UserInfoOracleDao();
@@ -38,9 +44,9 @@ public class UserInfoClient {
             System.out.println(" not support " );
         }
         if(userInfoDao != null) {
-            userInfoDao.insertUserInfo(userInfo);
-            userInfoDao.deleteUserInfo(userInfo);
-            userInfoDao.updateUserInfo(userInfo);
+            userInfoDao.insertUserInfo(userInfo2);
+            userInfoDao.deleteUserInfo(userInfo2);
+            userInfoDao.updateUserInfo(userInfo2);
         }
     }
 }
