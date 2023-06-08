@@ -9,6 +9,7 @@ public class KeyExample {
 
         // 식별키 “new Key(1)” 로 “홍길동”을 저장함
         hashMap.put(new Key(1), "홍길동");
+        hashMap.put(new Key(2), "김동우");
 
         // 식별키 “new Key(1)” 로 “홍길동”을 읽어옴
         String value = hashMap.get(new Key(1));
